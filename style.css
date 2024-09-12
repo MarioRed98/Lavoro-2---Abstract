@@ -1,0 +1,21 @@
+.top_bar_container{
+    background: black;
+    position: relative;
+    top: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+    height: 88px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    font-family: 'GT America Standard', sans-serif;
+}
+.top_bar{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
