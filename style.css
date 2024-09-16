@@ -1,21 +1,52 @@
-.top_bar_container{
+.top_bar_container {
     background: black;
-    position: relative;
     top: 0;
     width: 100%;
     left: 0;
     display: flex;
     color: white;
-    font-weight: 700;
-    font-size: 10px;
     height: 88px;
-    padding: 0 30px;
-    box-sizing: border-box;
-    font-family: 'GT America Standard', sans-serif;
+     box-sizing: border-box;
+    position: fixed;
 }
-.top_bar{
-    margin: auto;
+
+.top_bar {
+    margin: 0 6rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
+
+}
+
+.font_1 {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.font_2 {
+    font-size: 24px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-container{
+ width: 35px;
+}
+
+.top_bar_2{
+    text-align: right;
+    width: 60%;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit{
+    display: inline;
+    margin: 0 30px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.sign{
+    display: inline;
 }
