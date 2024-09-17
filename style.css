@@ -7,7 +7,7 @@
     color: white;
     height: 88px;
      box-sizing: border-box;
-    position: fixed;
+    
 }
 
 .top_bar {
@@ -60,4 +60,32 @@
     padding: 12px;
     background-color: #4C5FD5;
     border-radius: 10px;
+}
+body{
+    margin: 0;
+}
+
+.text_title{
+    padding: 6rem;
+    text-align: center;
+}
+
+.text_title_container .text_title .title_1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    margin: 0 0 2rem;
+    font-weight: 100;
+}
+
+.text_title_container{
+    background-color: #dadbf1;
+}
+.text_title_container .text_title .title_1 h3{
+    border-style: groove;
+    padding: 11px;
+    margin: 0 auto;
+    width: 40rem;
+    text-align: left;
+    color: darkgray;
+    background-color: white;
 }
