@@ -36,17 +36,28 @@
 
 .top_bar_2{
     text-align: right;
-    width: 60%;
+    width: 55%;
     margin: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
 }
 .submit{
     display: inline;
     margin: 0 30px;
-    color: #ffff;
+    border-style: double;
+    padding: 12px;
+    border-radius: 10px;
+}
+.top_bar_2 .sign a,
+.top_bar_2 .submit a{
     text-decoration: none;
+    color: #ffff;
 }
 
 .sign{
     display: inline;
+    border-style: double;
+    padding: 12px;
+    background-color: #4C5FD5;
+    border-radius: 10px;
 }
