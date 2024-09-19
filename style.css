@@ -93,4 +93,17 @@ body{
     display: flex;
     width: 50%;
     margin: 0 auto;
+    flex-wrap: wrap;
+ }
+
+ .list_1, .list_2, .list_3, .list_4{
+    width: 50%;
+    margin-bottom: 7rem;
+ }
+ .img_1, .img_2, .img_3, .img_4{
+    width: 3rem;
+ }
+ .footer_top{
+    background-color: black;
+    height: 15rem;
  }
