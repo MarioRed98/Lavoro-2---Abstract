@@ -105,5 +105,19 @@ body{
  }
  .footer_top{
     background-color: black;
-    height: 15rem;
+    color: white;
  }
+ .footer_top a{
+    text-decoration: none;
+    color: white;
+ }
+.footer_top .copy{
+    margin-bottom: 0;
+}
+.footer_top .footer_container .abstract a{
+    display: block !important;
+    margin: 1rem;
+}
+.footer_top .footer_container {
+    margin-right: 1rem;
+}
